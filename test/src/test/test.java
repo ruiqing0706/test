@@ -15,7 +15,6 @@ public class test {
 				);
 		String uri = "/aaa/api";
 		uri = uri.substring(4);
-		System.out.println(uri);
 		if (urlNonFilterList.contains(uri)) {
 			System.out.println("不需要session");
 		}
